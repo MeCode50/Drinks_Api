@@ -6,4 +6,4 @@ class Drink(models.Model):
     description = models.CharField(max_length=500)
 # display the name of the drink and description
     def __str__(self):
-        return self.name + ': '  + self.description
+        return self.name + ': '  + self.description 
